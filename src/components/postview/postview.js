@@ -27,7 +27,7 @@ export default function Postview() {
   // }, []);
 
   useEffect(() => {
-    fetch("https://ap-south-1.aws.data.mongodb-api.com/app/application-0-lcwyg/endpoint/insta" , {method:"GET"})
+    fetch("https://instaclone-server-kldas.onrender.com/" , {method:"GET"})
       .then((res) => res.json())
       .then((data) => {
         setPosts(data);
